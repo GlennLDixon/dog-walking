@@ -9,7 +9,7 @@ const walkers = getWalkers()
 const findWalker = (pet, allWalker) => {
     let petWalker = null
 
-    for (const walker of allWalkers) {
+    for (const walker of allWalker) {
         if (walker.id === pet.walkerId) {
             petWalker = walker
         }
