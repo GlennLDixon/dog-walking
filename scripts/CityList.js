@@ -7,7 +7,7 @@ export const CityList = () => {
     let citiesHTML = "<ol>"
 
     for (const walker of walkers) {
-        citiesHTML += `<li>${currentWalker.city}</li>`
+        citiesHTML += `<li>${walker.city}</li>`
     }
 
     citiesHTML += "</ol>"
