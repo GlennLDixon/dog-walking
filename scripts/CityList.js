@@ -1,6 +1,6 @@
 import { getWalkers } from "./database.js"
 
-const walkers = getWalker()
+const walkers = getWalkers()
 
 
 export const CityList = () => {
